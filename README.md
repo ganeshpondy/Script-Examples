@@ -106,7 +106,7 @@ Script that searches a directory for files with a specific
 extension and moves them to a new directory. it will seach only on the specified folder, -maxdepth is used for it . Used "find" command with xargs and mv.
 
 #### Find Command:
-```bash
+```python
 find "$user_dir" -maxdepth 1 -name "*.$file_type" -print0 | xargs -0 -I {} mv {} "$user_dir"/"$file_type"/
 ```
 
@@ -118,7 +118,7 @@ Script that generates 5 random passwords for a specified
 length and ask user to use special charters or not.
 
 #### Sample Output:
-```bash
+```python
 $ ./PassWord_Generator.sh 
 Please enter the length of the password: 12
 Do you Required Special Characters in your Password? (yes/no): yes
