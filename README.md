@@ -132,7 +132,7 @@ ph)xNSsi+*R)
 L^4~pj>6&a!$
 ---------------------------
 
-$ ./pass.sh 
+$ ./PassWord_Generator.sh 
 Please enter the length of the password: 12
 Do you Required Special Characters in your Password? (yes/no): no
 ---------------------------
