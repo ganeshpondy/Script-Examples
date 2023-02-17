@@ -147,3 +147,18 @@ A0B51Fde7B38
 $
 ```
 
+### 7. Compress_All_Files_in_a_Folder
+
+[Compress_All_Files_in_a_Folder.sh](https://github.com/ganeshpondy/Script-Examples/blob/main/Compress_All_Files_in_a_Folder.sh)
+
+Script that takes a directory as input and compresses all the
+files in the directory into a single archive file. We are using tar command with gz extenstion.
+```python
+cd "$user_dir" && tar -zcvf "$tar_name".tar.gz ./* || echo "path not available" 
+```
+Below Command used to Extract the tat.gz file:
+```bash
+#To unZip and Extract all files
+#gunzip -c 5-compress.tar.gz | tar xvf -
+#gunzip -c "$tar_name".tar.gz | tar xvf -
+```
